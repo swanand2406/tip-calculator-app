@@ -58,8 +58,8 @@ function calculateTip(billAmount, tipPercentage, numberOfPeople) {
 //Reset Everything
 resetButton.addEventListener("click", resetEverything);
 function resetEverything() {
-  billTipAmount.innerHTML = "Rs0.00";
-  billTotalPerPerson.innerHTML = "Rs0.00";
+  billTipAmount.innerHTML = "$0.00";
+  billTotalPerPerson.innerHTML = "$0.00";
   billAmount.value = "";
   numberOfPeople.value = "";
   customTipPercentage.value = "";
